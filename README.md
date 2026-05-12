@@ -34,4 +34,14 @@ This is obviously machine dependent.
 
 ## Results
 
+### Optimisation Level: -O2
+- Vector size: 10000000
+- Number of iterations: 20
+- Pass-By-Value Pattern Time: 1.01961s
+- Pass-By-Const-Reference Pattern Time: 0.247104s
+- Passing a Vector by const-ref is 4.12624 times faster than by-value
+- Final Result: 1e+07
+
+## TODO
+* Run at different optimisation levels: `-O0`, `-O1` & `-O3`.
 
